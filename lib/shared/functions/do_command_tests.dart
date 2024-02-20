@@ -14,6 +14,7 @@ Future<void> doCommandTests() async {
   // INVOKER -> Controle da casa inteligente
   SmartHouseApp app = SmartHouseApp();
   app.addCommand(key: "bedroom_light", command: bedroomLightCommand);
+  app.addCommand(key: "bedroom_light", command: bedroomLightCommand);
   app.addCommand(key: "bathroom_light", command: bathroomLightCommand);
   app.addCommand(key: "bedroom_increaser", command: bedroomIncreaser);
   app.addCommand(key: "bathroom_increaser", command: bathroomIncreaser);
@@ -44,5 +45,5 @@ Future<void> doCommandTests() async {
     app.executeCommand("bathroom_increaser");
   }
 
-  print("\n----------------------------\n");
+  print("\n--------------------------------------------------------\n");
 }
