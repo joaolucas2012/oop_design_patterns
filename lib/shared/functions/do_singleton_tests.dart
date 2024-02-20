@@ -1,5 +1,6 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
+/// ### Testa o padrão Singleton
 Future<void> doSingletonTests() async {
   print("\nIniciando testes do padrão SINGLETON!\n");
 
