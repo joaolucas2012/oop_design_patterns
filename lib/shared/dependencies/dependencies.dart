@@ -17,8 +17,12 @@ export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/c
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/dish_maker.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/meal_builder_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/meal_composite_interface.dart';
+export 'package:oop_design_patterns/design_patterns/creational/prototype_pattern/classes/address.dart';
+export 'package:oop_design_patterns/design_patterns/creational/prototype_pattern/classes/person.dart';
+export 'package:oop_design_patterns/design_patterns/creational/prototype_pattern/interfaces/prototype_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/singleton_pattern/classes/database.dart';
 export 'package:oop_design_patterns/design_patterns/creational/singleton_pattern/classes/singleton.dart';
 export 'package:oop_design_patterns/shared/functions/do_builder_tests.dart';
 export 'package:oop_design_patterns/shared/functions/do_command_tests.dart';
+export 'package:oop_design_patterns/shared/functions/do_prototype_tests.dart';
 export 'package:oop_design_patterns/shared/functions/do_singleton_tests.dart';
