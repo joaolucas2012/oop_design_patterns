@@ -5,4 +5,5 @@ Future<void> main(List<String> args) async {
   await doSingletonTests();
   await doBuilderTests();
   await doPrototypeTests();
+  await doFactoryMethodTests();
 }
