@@ -1,9 +1,10 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
-Future<void> main(List<String> args) async {
-  await doCommandTests();
-  await doSingletonTests();
-  await doBuilderTests();
-  await doPrototypeTests();
-  await doFactoryMethodTests();
+void main(List<String> args) {
+  doCommandTests();
+  doSingletonTests();
+  doBuilderTests();
+  doPrototypeTests();
+  doFactoryMethodTests();
+  doAbstractFactoryTests();
 }
