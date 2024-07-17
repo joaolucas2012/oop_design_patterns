@@ -1,7 +1,7 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
 /// ### Testa o padrão Builder
-Future<void> doBuilderTests() async {
+void doBuilderTests() {
   print("Iniciando testes do padrão BUILDER!\n");
 
   // Director que cria refeições simples com builder.

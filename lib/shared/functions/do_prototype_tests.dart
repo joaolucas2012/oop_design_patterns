@@ -1,6 +1,6 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
-Future<void> doPrototypeTests() async {
+doPrototypeTests() {
   print("Iniciando testes do padrão PROTOTYPE!\n");
 
   Person joao = Person("João Lucas", 23, []);

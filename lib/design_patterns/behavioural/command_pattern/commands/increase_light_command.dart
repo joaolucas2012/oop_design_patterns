@@ -1,5 +1,4 @@
-import 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/classes/smart_house_light.dart';
-import 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/interfaces/smart_house_command.dart';
+import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
 class IncreaseLightCommand implements SmartHouseCommand {
   late SmartHouseLight _light;

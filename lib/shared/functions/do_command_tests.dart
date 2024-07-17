@@ -1,7 +1,7 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
 /// ### Testa o padrão Command
-Future<void> doCommandTests() async {
+void doCommandTests() {
   // RECEIVERS -> Lâmpadas da casa inteligente
   SmartHouseLight bedroomLight = SmartHouseLight("Luz do quarto");
   SmartHouseLight bathroomLight = SmartHouseLight("Luz do banheiro");

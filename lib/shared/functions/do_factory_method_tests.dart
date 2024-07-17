@@ -1,6 +1,6 @@
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
-Future<void> doFactoryMethodTests() async {
+void doFactoryMethodTests() {
   print("Iniciando testes do padrão FACTORY METHOD!\n");
 
   // O código cliente agora está completamente desacoplado das classes concretas.

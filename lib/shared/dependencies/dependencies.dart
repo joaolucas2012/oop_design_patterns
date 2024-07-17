@@ -1,8 +1,14 @@
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/classes/smart_house_light.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/commands/increase_light_command.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/commands/light_power_command.dart';
-export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/interfaces/smart_house_command.dart';
+export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/interfaces/smart_house_command_interface.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/invoker/smart_house_app.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/classes/enterprise_car.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/classes/enterprise_customer.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/classes/individual_car.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/classes/individual_customer.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/interfaces/customer_interface.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/interfaces/customer_vehicle_factory_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/builders/dish_builder.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/directors/complete_dish_maker.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/directors/default_dish_maker.dart';
@@ -14,7 +20,7 @@ export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/c
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/implementations/meal.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/implementations/meat.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/classes/implementations/rice.dart';
-export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/dish_maker.dart';
+export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/dish_maker_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/meal_builder_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/builder_pattern/interfaces/meal_composite_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/factory_method_pattern/classes/dtos/bicycle.dart';
@@ -28,6 +34,7 @@ export 'package:oop_design_patterns/design_patterns/creational/prototype_pattern
 export 'package:oop_design_patterns/design_patterns/creational/prototype_pattern/interfaces/prototype_interface.dart';
 export 'package:oop_design_patterns/design_patterns/creational/singleton_pattern/classes/database.dart';
 export 'package:oop_design_patterns/design_patterns/creational/singleton_pattern/classes/singleton.dart';
+export 'package:oop_design_patterns/shared/functions/do_abstract_factory_tests.dart';
 export 'package:oop_design_patterns/shared/functions/do_builder_tests.dart';
 export 'package:oop_design_patterns/shared/functions/do_command_tests.dart';
 export 'package:oop_design_patterns/shared/functions/do_factory_method_tests.dart';
