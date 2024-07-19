@@ -1,3 +1,8 @@
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/factories/enterprise_customer_vehicle_factory.dart';
+export 'package:oop_design_patterns/design_patterns/creational/abstract_factory/factories/individual_customer_vehicle_factory.dart';
+export 'package:oop_design_patterns/design_patterns/structural/composite/classes/composed_product.dart';
+export 'package:oop_design_patterns/design_patterns/structural/composite/interfaces/product_component_interface.dart';
+export 'package:oop_design_patterns/design_patterns/structural/composite/classes/product.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/classes/smart_house_light.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/commands/increase_light_command.dart';
 export 'package:oop_design_patterns/design_patterns/behavioural/command_pattern/commands/light_power_command.dart';

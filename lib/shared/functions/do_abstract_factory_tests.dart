@@ -1,8 +1,8 @@
-import 'package:oop_design_patterns/design_patterns/creational/abstract_factory/factories/enterprise_customer_vehicle_factory.dart';
-import 'package:oop_design_patterns/design_patterns/creational/abstract_factory/factories/individual_customer_vehicle_factory.dart';
 import 'package:oop_design_patterns/shared/dependencies/dependencies.dart';
 
 void doAbstractFactoryTests() {
+  print("Iniciando testes do padrão ABSTRACT FACTORY!\n");
+
   final enterpriseFactory = EnterpriseCustomerVehicleFactory();
   final individualFactory = IndividualCustomerVehicleFactory();
 
